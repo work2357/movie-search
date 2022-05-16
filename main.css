@@ -232,11 +232,8 @@ img {
     font-weight: 500;
 }
 .contents .copyright {
-    position: absolute;
-    bottom: 80px;
-    right: 0;
-    left: 0;
-    margin: auto;
+    font-size: 14px;
+    font-style: italic;
 }
 
 /* MEDIA QUERY */

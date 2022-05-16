@@ -28,3 +28,7 @@
 
 ## URL
 [Apple TV](https://reliable-smakager-86ac20.netlify.app/)
+
+## Feature
+- 반응형 고려
+- About Page 생성
