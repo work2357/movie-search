@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- OPEN GRAPH -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Movie Search" />
+    <meta property="og:title" content="Apple TV Plus Movie Search" />
+    <meta property="og:description" content="Search for the movie you want to find out." />
+    <meta property="og:image" content="./img/opengraph.jpeg" />
+    <meta property="og:url" content="https://tv.apple.com/kr" />
+
+    <!-- TWITTER CARD -->
+    <meta property="twitter:card" content="summary" />
+    <meta property="twitter:site" content="Movie Search" />
+    <meta property="twitter:title" content="Apple TV Plus Movie Search" />
+    <meta property="twitter:description" content="Search for the movie you want to find out." />
+    <meta property="twitter:image" content="./img/opengraph.jpeg" />
+    <meta property="twitter:url" content="https://tv.apple.com/kr" />
+    
+    <title>Movie Search</title>
+    <!-- RESET.CSS CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./main.css" />
+
+    <!-- FONT AWESOME CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- JS -->
+    <script defer src="./main.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <!-- LOGO -->
+        <div id="header" class="container">
+            <p class="logo">
+                <a href="/"><img src="./img/logo.svg" alt="Apple TV Plus"></a>
+            </p>
+            <p class="about">
+                <a href="./sub.html">About</a>
+            </p>
+        </div>
+        <!-- END OF LOGO -->
+        <!-- SEARCH CONTAINER -->
+        <div class="search-container">
+            <div class="search-element">
+                <h3>Search Movie : </h3>
+                <input type="text" class="form-control" placeholder="Search Movie Title ..." id="movie-search-box" onkeyup="findMovies()" onclick = "findMovies()" />
+
+                <div class="search-list" id="search-list">
+                    <!-- <div class="search-list-item">
+                        <div class="search-item-thumbnail">
+                            <img src="./img/lalaland.jpg" alt="LA LA LAND" />
+                        </div>
+                        <div class="search-item-info">
+                            <h3>LA LA LAND</h3>
+                            <p>2016</p>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <!-- END OF SEARCH CONTAINER -->
+
+        <!-- RESULT CONTAINER -->
+        <div class="container">
+            <div class="result-container">
+                <div class="result-grid" id="result-grid">
+                    <!-- <div class="movie-poster">
+                        <img src="./img/lalaland.jpg" alt="movie poster" />
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title">LA LA LAND</h3>
+                        <ul class="movie-misc-info">
+                            <li class="year">Year: 2016</li>
+                            <li class="rated">Rating: PG-13</li>
+                            <li class="released">Released: 07 Dec 2016</li>
+                        </ul>
+                        <p class="genre"><b>Genre:</b> Drama</p>
+                        <p class="writer"><b>Writer:</b> Damien Chazelle</p>
+                        <p class="actors"><b>Actors:</b> Emma Stone, Ryan Gosling</p>
+                        <p class="plot"><b>Plot:</b> Sebastian (Ryan Gosling) and Mia (Emma Stone) are drawn together by their common desire to do what they love. But as success mounts they are faced with decisions that begin to fray the fragile fabric of their love affair, and the dreams they worked so hard to maintain in each other threaten to rip them apart.</p>
+                        <p class="language"><b>Language:</b> English</p>
+                        <p class="awards"><b><i class="fa-solid fa-award"></i></b> Won for 6 Oscar, Nominated for 8 Oscar</p>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <!-- END OF RESULT CONTAINER-->
+    </div>
+</body>
+</html>
