@@ -27,4 +27,4 @@
 - [ ] 요청 주소에 HTTP가 아닌 HTTPS 프로토콜을 사용해야 하는 이유를 조사해보세요.
 
 ## URL
-[Apple TV]()
+[Apple TV](https://reliable-smakager-86ac20.netlify.app/)
